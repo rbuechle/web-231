@@ -1,7 +1,3 @@
-console.log("Hello World, my name is Becca Buechle");
-
-// script to output simple string.
-
 /*
 ============================================
 ; Title: Assignment 1.3
@@ -11,3 +7,8 @@ console.log("Hello World, my name is Becca Buechle");
 ; Description: Program to output a simple string of text.
 ;===========================================
 */
+
+console.log("Hello World, my name is Becca Buechle");
+
+// script to output simple string.
+
