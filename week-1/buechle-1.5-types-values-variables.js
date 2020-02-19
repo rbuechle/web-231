@@ -35,6 +35,7 @@ var hireDate1String = hireDate1.getMonth()+1 + "/" + hireDate1.getDate() + "/" +
 var hireDate2String = hireDate2.getMonth()+1 + "/" + hireDate2.getDate() + "/" + hireDate2.getFullYear();
 var hireDate3String = hireDate3.getMonth()+1 + "/" + hireDate3.getDate() + "/" + hireDate3.getFullYear();
 
+//log of all above information 
 console.log(firstName1 + " " + lastName1 + " " + address1);
 console.log("$" + payRate1 + "/hr " + hireDate1String);
 console.log("\n");
