@@ -4,8 +4,7 @@
 ; Author: Richard Krasso
 ; Date: 22 February 2020
 ; Modified By: Becca Buechle
-; Description: This program creates an alert telling
-the user hello world.
+; Description: Creates a header with my information
 ;===========================================
 */
 
