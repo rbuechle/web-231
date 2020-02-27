@@ -24,19 +24,16 @@ var money = "10000.01";
 
 //outputs full name as string
 function fullName(firstName, lastName) {
-
   return firstName + " " + lastName;
 }
 
 //the date
 function dateWriter(year, month, day) {
-
-return new Date(year, month, day);
+  return new Date(year, month, day);
 }
 
 //formats how many decimal points
 function formatNumber(number, numOfFixedPositions) {
-
   return number.toFixed(numOfFixedPositions);
 }
 
