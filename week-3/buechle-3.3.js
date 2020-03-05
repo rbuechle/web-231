@@ -9,7 +9,7 @@
 */
 //header for assignment
 const header = require('../buechle-header.js');
-console.log (header.display("Rebecca", "Buechle", "2.3_function_Properties"));
+console.log (header.display("Rebecca", "Buechle", "3.3_control_Statements"));
 
 //var for switch statement testing
 let eventKeyCode = 13;
