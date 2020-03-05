@@ -10,7 +10,7 @@
 
 //header for assignment
 const header = require('../buechle-header.js');
-console.log (header.display("Rebecca", "Buechle", "2.3_function_Properties"));
+console.log (header.display("Rebecca", "Buechle", "3.4_loop_Practice"));
 console.log("\n");
 
 var lucky = 7;
