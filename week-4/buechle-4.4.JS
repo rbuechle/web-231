@@ -13,11 +13,16 @@ const header = require('../buechle-header.js');
 console.log(header.display("Rebecca", "Buechle", "4.4_Filtering"));
 console.log("\n");
 
+//state that we are searching array for
 var state = "Washington";
+//list of states in an array
 var states = ["Colorado", "Texas", "South Dakota", "Washington", "New Mexico"];
+//sorts states
 var statesSorted = states.sort();
+//array that contains the selected state if found
 var stateSelected = states.filter(function(x){return getState(x, state)});
 
+//prints the array list on new line
 function printArray(array)
 {
 for(i = 0; i < array.length; i++)
@@ -26,10 +31,13 @@ console.log(array[i]);
 }
 }
 
+// compares two strings and returns true if they are the same
 function getState(string1, string2){
 return string1 == state;
 }
 
+
+//logs to dev console
 console.log("-- ORIGINAL ARRAY --");
 printArray(states);
 console.log("\n");
