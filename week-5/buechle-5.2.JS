@@ -10,7 +10,7 @@
 
 //header for assignment
 const header = require('../buechle-header.js');
-console.log (header.display("Rebecca", "Buechle", "5.2_"));
+console.log (header.display("Rebecca", "Buechle", "5.2_built_in_functions"));
 
 //array with favorite foods
 var favoriteFoods = ["Steak", "Pasta", "Tacos", "Thai", "Enchiladas"];
