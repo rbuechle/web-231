@@ -4,7 +4,7 @@
 ; Author: Becca Buechle
 ; Date: 17 March 2020
 ; Modified By:
-; Description: Practice with filtering and reducing complex data structures.
+; Description:  Practice with filtering and reducing complex data structures.
 ;===========================================
 */
 
