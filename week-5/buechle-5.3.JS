@@ -18,7 +18,7 @@ var famousComposer = [
 {
   firstName:"Ludwig van",
   lastName:"Beethoven",
-  genre:" Classical",
+  genre:"Classical",
   rating: 10,
 },
 
