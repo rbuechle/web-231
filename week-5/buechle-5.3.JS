@@ -4,13 +4,13 @@
 ; Author: Professor Itskovich
 ; Date: 16 March 2020
 ; Modified By: Becca Buechle
-; Description: Filtering/Reducing Complex Data Structures
+; Description: forEach built-in function practice.
 ;===========================================
 */
 
 //header for assignment
 const header = require('../buechle-header.js');
-console.log (header.display("Rebecca", "Buechle", "5.4_Filtering_Data_Structures"));
+console.log (header.display("Rebecca", "Buechle", "5.3_object_collections"));
 console.log("\n");
 
 //array with composers info
