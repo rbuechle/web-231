@@ -1,0 +1,43 @@
+ <!--
+============================================
+; Title:  inline-javascript-functions.html
+; Author: Professor Krasso / Jason Cords
+; Date:   29 Mar 2020
+; Modified by: Becca Buechle
+; Description: Dom elements discussion
+;===========================================
+-->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Discussion 7.1</h1>
+
+<p>Hello Class!</p>
+
+<p id= txt></p>
+
+<script>
+
+document.getElementById("txt").innerHTML =
+"If you click the button below, something else happens";
+
+</script>
+
+<button onclick= somethingElse()>Do it!</button>
+
+<script>
+
+    function somethingElse() {
+        var button = document.createElement("BUTTON"); //creates new button
+        var text = document.createTextNode("Something else!"); //changes text of button
+        button.appendChild(text); //adds dom element button
+        document.body.appendChild(button); //adds dom element to document
+  }
+</script>
+</body>
+</html>
+
+<!--You need a closing > for the script above your function-->
+<!--You said you had several errors but everything seems to work after I fixed the above?-->
