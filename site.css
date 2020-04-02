@@ -1,0 +1,20 @@
+#shopping table{
+    border: 1px solid black;
+    border-collapse: collapse;
+   
+}
+#shopping th {
+  background-color: deepskyblue;
+    border: 1px solid black;
+    padding: 5px;
+    color: white;
+}
+
+tr.even {
+    background-color: skyblue;
+}
+
+#shopping td {
+    border: 1px solid black;
+    padding: 5px;
+}
