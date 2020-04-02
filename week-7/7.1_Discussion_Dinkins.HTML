@@ -1,0 +1,59 @@
+<!--
+
+============================================
+
+; Title:  Discussion 7.1.js
+
+; Author: Darius Dinkins
+
+; Date:   30 Mar 2020
+
+; Modified by: Becca Buechle
+
+; Description: Finding and Manipulating DOM Elements
+
+===========================================
+
+-->
+
+
+
+<!-- Expected Output:
+
+Test Page
+
+
+
+Lets write a test page using javascript:
+
+
+
+Hello, I'm your test page
+
+-->
+
+<!DOCTYPE html>
+
+<html>
+
+<body>
+
+ <h2>Test Page</h2>
+
+<p>Lets write a test page using javascript:</p>
+
+ <p id="test"></p>
+
+ <script>
+
+document.getElementById("test").innerHTML = "Hello, I'm your test page";
+
+</script>
+
+ </body>
+
+</html>
+
+<!-- your id = needs to have quotes around the value -->
+<!-- Your first error is your ID tag name is wrong it needs to be test to match.-->
+<!--Your second error is  your missing the second quote at the end of page in the document-->
