@@ -1,7 +1,18 @@
+<!-- /*
+============================================
+; Title: Assignment 7.3
+; Author: Becca Buechle
+; Date: 27 March 2020
+; Modified By:
+; Description: CSS for Assignment 7.3
+;===========================================
+*/
+-->
+
 #shopping table{
     border: 1px solid black;
     border-collapse: collapse;
-   
+
 }
 #shopping th {
   background-color: deepskyblue;
