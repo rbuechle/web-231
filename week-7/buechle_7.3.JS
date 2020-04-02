@@ -8,6 +8,7 @@
 ;===========================================
 */
 
+//ordered shopping list of fruit
 document.write(
   "<h1>SHOPPING LIST  v.1</h1>" +
   "<ol>" +
@@ -21,6 +22,7 @@ document.write(
 
 window.onload = createTable;
 
+// Shopping list of fruits made into an HTML table
 function createTable(){
   document.getElementById("shopping").innerHTML =
     "<h1>SHOPPING LIST v.2</h1>" +
