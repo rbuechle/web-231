@@ -1,0 +1,53 @@
+ <!--
+ /*
+============================================
+; Title: Assignment 8.1
+; Author: Becca Buechle
+; Date: 04 March 2020
+; Modified By:
+; Description: DOM Manipulation (JQuery)
+;===========================================
+*/
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 8.1 DOM Manipulation (JQuery)</title>
+</head>
+
+<body>
+
+  <h1>Hello.</h1>
+
+  <button>Click Me</button>
+  <button>Click Me</button>
+  <button>Click Me</button>
+  <button>Click Me</button>
+  <button>Click Me</button>
+
+  <input type="text" name=""  value="">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!--makes header blue-->
+  <script>$("h1").css("color", "blue");</script>
+
+  <!--Make the H1 %50 opacity when you click-->
+  <script>
+    $(button).on("click", function() {
+    $("h1").animate({opacity: 0.5})
+    });
+  </script>
+
+<!--console logs anything typed in the input box-->
+  <script>
+    $("input").keypress(function({event}) {
+    console.log(event.key);
+    });
+  </script>
+
+</body>
+</html>
