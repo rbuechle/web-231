@@ -1,0 +1,29 @@
+div#fruits{
+  display: block;
+  color :#D9828B;
+  margin: 0 auto;
+  width: 300px;
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#fruits ul {
+  list-style-type: none;
+}
+
+topbar{
+  display: block;
+  padding: 20px;
+  width: 100%;
+  background-color: #81D8D0;
+  color: White;
+  margin: 0px;
+  font-size: 35px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#fruits h2{
+text-align: center;
+}
+
+
