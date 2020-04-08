@@ -1,0 +1,39 @@
+#emps tr:hover{
+  background-color: #D9828B
+}
+
+h1{
+  color: #D9828B;
+  font-size: 50px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#emps table{
+  margin-top: 20px;
+  margin-left: 20px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#emps th {
+  background-color: #D9828B;
+    border: 1px solid black;
+    padding: 5px;
+    color: white;
+  }
+
+  #emps td {
+    border: 1px solid black;
+    padding: 5px;
+  }
+
+  tr:nth-child(even) {
+    background-color: rgba(129, 216, 208, 0.35);
+    border: 1px solid black;
+  }
+
+  tr:nth-child(odd) {
+    background-color: #81D8D0;
+    border: 1px solid black;
+  }
