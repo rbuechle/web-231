@@ -1,0 +1,71 @@
+h1{
+  color: #D9828B;
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#toggle{
+  font-family: 'Roboto', sans-serif;
+  margin-left: 20px;
+}
+
+tr:nth-child(odd) {
+  background-color: #81D8D0;
+  border: 1px solid black;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(129, 216, 208, 0.35);
+  border: 1px solid black;
+}
+
+#fruits table{
+  font-family: 'Roboto', sans-serif;
+  margin-top: 20px;
+  margin-left: 20px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#fruits th {
+background-color: #D9828B;
+  border: 1px solid black;
+  padding: 5px;
+  color: white;
+}
+
+#fruits td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+#button{
+  margin-left: 20px;
+}
+
+topbar{
+  display: block;
+  padding: 20px;
+  width: 100%;
+  background-color: #81D8D0;
+  color: White;
+  margin: 0px;
+  font-size: 35px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#fruits a:link{
+  text-decoration: none;
+  color: black;
+}
+
+#fruits a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+#fruits a:hover{
+color: #D9828B;
+}
