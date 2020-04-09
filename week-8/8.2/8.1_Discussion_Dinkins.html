@@ -1,0 +1,23 @@
+<!--============================================
+;Title:  Discussion http://8.1.js
+; Author: Darius Dinkins
+; Date:   6 Apr 2020
+; Modified by: Becca Buechle
+; Description: DOM Manipulation (jQuery===========================================
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <p id="test"> Testing testing one two three... </p>  <!-- P tag waiting to be clicked-->
+        <script>
+            $("#test").click(function() { //alerts the user when an element is clicked
+                alert("Test, one, two");
+            });
+        </script>
+    </body>
+</html>
+<!-- errant right carrot (>) removed from opening <p id="test"> tag -->
+<!-- jquery #test.click script moved from between head and body into body -->
