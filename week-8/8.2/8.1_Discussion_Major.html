@@ -1,0 +1,38 @@
+<!--
+============================================
+; Title
+: major-discussion-8.1.html
+; Author: King Major
+; Date: 04 Apr 2020
+; Modified by: Becca Buechle
+; Description: Working with jQuery DOM manipulation with errors
+;===========================================
+-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <h1 id="H1"></h1>
+        <h2 id="h2">Click The Button and This Message Should Change</h2>
+        <button onclick="myFunction()">Click Me!</button>
+        <script>
+            function welcome() {
+                $('#H1').html("Greetings!");
+}
+$(document).ready(welcome());
+            function myFunction() {
+                $('h2').html("This is my most recent site.");
+}
+        </script>
+    </body>
+</html>
+<!-- /* and */ surrounding attributions replaced with correct HTML comment tags -->
+<!-- in welcome() function definition: "#" added to "H1" id selector -->
+<!-- in welcome() function definition: ".innerHTML" DOM property replaced with ".html" jQuery method -->
+<!-- in myFunction() function definition: ".innerHTML" DOM property replaced with ".html" jQuery method -->
+<!-- in myFunction() function definition: "=" assignment operator replaced with circle brackets surrounding string arguement -->
+<!-- forward slash added to ending html tag -->
